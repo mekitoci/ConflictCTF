@@ -1,3 +1,5 @@
+import random
+
 flag_format = "flag{FLAG_HERE}"
 
 alice = []

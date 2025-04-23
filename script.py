@@ -4,10 +4,16 @@ alice = []
 bob = []
 
 def make_the_list_into_char_list(list: list[str]) -> list[str]:
-    return []
+    array = []
+    for i in range(len(list)):
+        array.append(chr(int(list[i], base=16)))
+    return array
 
 def reverse_the_list(list: list[str]) -> list[str]:
-    return []
+    array = []
+    for i in range(len(list)):
+        array.append(list[len(list)-1-i])
+    return array
 
 def decrease(list):
     random.seed("bob")
